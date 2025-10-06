@@ -1,0 +1,203 @@
+CI-CD Training (Jenkins):
+
+(AWS, Docker, Terraform)
+
+1. Introduction -- CI and CD 
+
+                   Benefits
+                     
+                   CI and CD
+
+2. Overview of Jenkins :  architectre , plugins, types of jobs
+
+3. Configure jobs in jenkins --- build, triggers
+
+4. plugins -- aws, credentials, git
+
+5. integration with aws, git, docker, kubernetes, terraform
+
+6. agents -- Master- Slave 
+
+
+
+CI (Continuous Integration)  -- kind of SD practice
+
+              dev--  writing code ---- merge into github repo
+
+
+                (50 times a day)   - commit, push  -- merged into main branch (preq Code test )
+
+ 
+Automatically -- CI tools -- automated builds and test
+
+
+
+Google Chrome, Adobe Reader, Instagram, whatsapp
+
+google play store --- new update is ava. *2.5. 2.6 -- twice a week
+
+10 yrs back --- august 5 ,,    20 august
+
+
+Fail fast, Fail oftern -- Recover quickly
+
+
+Pipeline  --- Build #1, #2 .....................#100
+
+log history -- build stage1 successfull  -- build stage 2 failed --- rest will be skipped
+
+ (Failure)
+
+
+Terraform (IaC)  -- Infra as a service
+
+
+Website -- deploy a webapge (display the current weather), e-commerce
+
+
+WEbserver --- deploy webapges
+
+(Nginx-- linux platform)
+
+AWS -- (linux VM)  (compute (vcpu + RAM), storage(hdd,ssd), network)
+
+ IF you have to create Vm -- 100 times a day
+
+Automation -- Terraform (Script)  -- execute the script --- terraform apply
+
+Infra -- Compute power, Storage, Database, Network etc
+
+
+
+Ansible/Chef/Saltstack/Puppet  -- Config Mgmt tools
+
+          creation of Server -- terraform,   Config -- users+installing some scripts -- ansible
+
+ Terraform - Open source tool (Cloud Agnostic) (AWS< AZURE< GCP< IBM< ALIbaba)
+
+ , Terrfaorm Cloud / enterprise 
+
+ Cloudformation -- AWS, ARM templates- Azure,  GCP -- DEployment Manger
+
+
+
+Continuous INtegration (CI)  pipeline
+
+  Artifact ---  (Build  -- source code -- artifact)  (.jar)   (Docker -- image)
+
+ If i have to install a game on my system -- website (source code)  -- artifact (.exe)
+
+ Location -- Central repo (github)
+
+      Central Repo for artifact 
+
+
+Docker - supported linux
+
+Docker Desktop ==  Supports windows
+
+
+LINUX based VM -- Docker installed
+
+
+TERM  --- Definition, Why we are using it, What we are getting out of t (Benefits), Competitors
+
+
+CLOUD Computing -- same for any cloud
+
+deliver of computing services over internet ....
+
+computing term --broad sense -- define the entire infra
+
+
+
+Scale Up/Down  -- Vertical Scaling -- increase the RAM/Cpu for a instance 
+
+
+SCale Out/In   -- Horizonal Scaling -- increasre the no. pf instance
+
+
+
+
+Pay-per-use-model
+
+1. On-demand instances :
+
+AWS pricing -- VM -- 30 minutes (pay for 30 minutes) (1-2 USD)
+
+Onprem -- ssytem (30-40k)
+
+Pricing plans -- 2. Reserved Instances (1y or 3y plan)  -- 30-35% discount
+
+              Worload -- 1y or 3y
+
+
+3.  Spot Instances -- Temporary (80-85% cheaper)
+
+       (testing , non-critical jobs)
+
+       
+         AWS -- 100K server (70K servers busy)
+
+               30K idle -- (spot instance discount)  -- catch (on-demand price)
+
+                    (30 second warning)
+
+
+
+
+High Availability -- Disaster Recovery
+
+
+AWS - 40+ region
+
+
+
+Public Cloud --- AWS, Azure -- offering services to public
+
+Private Cloud -- Sync. -- central repo -- developers 
+
+
+    central repo --  access it  (authentication + Authorization)
+
+                Get link -- sync cntral repo --- open
+
+                Auth. layer --- emplyeed id + pswd (MFA)  -- different location, different device
+
+                   interface -- can't anything
+
+                  authorization layer -- access to repo (viewe, editor)
+
+
+AWS -- IAM (Identity and access mgmt)
+
+       Create users, roles, policies
+
+ AWS -- root user (admin tasks)
+
+          ec2 server, s3 bucket   --- normal user
+
+
+EC2 -- E C C (Elastic Compute Cloud)
+
+S3 -- S S S (simple storage service)  -- object level storage
+
+
+18.206.45.79
+
+
+44.199.242.19
+
+
+10 gb - disk stay *+(pay)
+
+        
+
+
+aws cli --- commands 
+
+aws configure
+
+aws access key
+
+aws secret access key --
